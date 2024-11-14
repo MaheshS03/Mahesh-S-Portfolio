@@ -1,0 +1,41 @@
+header {
+    height: 50vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ----- Call To Action Button ----- */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+/* ------ MEDIA Queries (Tabs/Medium Devices) ------ */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+}
+
+/* ------ MEDIA Queries (Mobile/Small Devices) ------ */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .scroll__down {
+        display: none;
+    }
+}
