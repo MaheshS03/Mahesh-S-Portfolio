@@ -4,7 +4,7 @@ import {FiCheckCircle} from 'react-icons/fi';
 
 const Experience = () => {
   return (
-    <section id='experience'>
+    <section id='skills'>
       <h5>What Skills I Have?</h5>
       <h2>My Experience</h2>
 
@@ -119,6 +119,12 @@ const Experience = () => {
               <FiCheckCircle className='experience__details-icon' />
               <div>
                 <h4>Postman</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FiCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Splunk</h4>
               </div>
             </article>
           </div>
